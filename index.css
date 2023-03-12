@@ -1,0 +1,56 @@
+
+body {
+    padding-left: 10px;
+    min-width: 420px;
+}
+.search-bar {
+    display: block;
+    height: 30px;
+    width: 300px;
+    border: 1px solid  rgb(33, 163, 33);
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.save-btn,
+.delete-btn,
+.add-btn{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    background-color: rgb(33, 163, 33);
+    border: 1px solid rgb(225, 224, 224);
+    border-radius: 5px;
+}
+
+.add-btn:active{
+    opacity: 0.7;
+}
+.save-btn:active {
+    opacity: 0.7;
+}
+.delete-btn:active{
+    opacity: 0.7;
+}
+
+
+ul {
+    margin-top: 28px;
+    padding-left: 5px;
+}
+
+li {
+    margin-bottom: 6px;
+    list-style: none;
+}
+a{
+    font-size: 18px;
+    color:  rgb(33, 163, 33);
+    text-decoration: none;
+}
